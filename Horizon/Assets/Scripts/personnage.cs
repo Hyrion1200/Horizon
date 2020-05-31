@@ -8,9 +8,17 @@ public class personnage : MonoBehaviour
     public int hp;
     public bool CanAttack;
 
+    public HealthBar healthBar;
+
     private void Start()
     {
         hp = data.health;
+        healthBar.SetMaxHealth(hp);
+    }
+
+    private void Update()
+    {
+        healthBar.SetHealth(hp);
     }
 
     public virtual void basicAttack()
