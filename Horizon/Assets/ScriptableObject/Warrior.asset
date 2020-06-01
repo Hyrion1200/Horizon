@@ -19,3 +19,5 @@ MonoBehaviour:
     type: 3}
   spriteFace: {fileID: 5696770936715017764, guid: 73d1ad22fed317f47b429a67ca71271f,
     type: 3}
+  spriteIcon: {fileID: -4298345892085953899, guid: 73d1ad22fed317f47b429a67ca71271f,
+    type: 3}

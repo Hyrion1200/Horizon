@@ -25,4 +25,8 @@ public class personnage : MonoBehaviour
     {
 
     }
+
+    public virtual void heal(){
+
+    }
 }

@@ -633,6 +633,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -646,10 +647,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: a9acc357-a0c4-4d45-8b79-2600493aff28
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Horizon
+  organizationId: piexisbrun
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
