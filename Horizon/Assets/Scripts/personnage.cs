@@ -21,7 +21,7 @@ public class personnage : MonoBehaviour
         healthBar.SetHealth(hp);
     }
 
-    public virtual void basicAttack()
+    public virtual void basicAttack(int id)
     {
 
     }
