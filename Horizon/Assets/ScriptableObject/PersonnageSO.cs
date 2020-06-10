@@ -9,6 +9,11 @@ public class PersonnageSO : ScriptableObject
     public int attack;
     public new string name;
     public int health;
+    public enum id
+    {
+        warrior,
+        wizard
+    };
 
     public Sprite spriteBack;
     public Sprite spriteFace;

@@ -5,9 +5,8 @@ using UnityEngine;
 public class personnage : MonoBehaviour
 {
     public PersonnageSO data;
-    public int hp;
     public bool CanAttack;
-
+    public int hp;
     public HealthBar healthBar;
 
     private void Start()

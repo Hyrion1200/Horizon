@@ -647,8 +647,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 1ffe4a126eae9a84183eac9493356eae, type: 2}
-  hp: 0
   CanAttack: 1
+  hp: 20
   healthBar: {fileID: 730870088}
   ennemy: {fileID: 747441833}
   ally: {fileID: 543920185}
@@ -1181,8 +1181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 1ffe4a126eae9a84183eac9493356eae, type: 2}
-  hp: 0
   CanAttack: 0
+  hp: 20
   healthBar: {fileID: 616610816}
   ennemy: {fileID: 543920185}
   ally: {fileID: 747441833}
@@ -1861,6 +1861,7 @@ GameObject:
   - component: {fileID: 1624397248}
   - component: {fileID: 1624397247}
   - component: {fileID: 1624397249}
+  - component: {fileID: 1624397250}
   m_Layer: 0
   m_Name: Character_List
   m_TagString: Untagged
@@ -1880,7 +1881,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aa33f7021f9e534e845db92872e5608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characters: 
+  id: 0
+  data: {fileID: 0}
+  warriorPrefab: {fileID: 0}
+  wizardPrefab: {fileID: 0}
 --- !u!4 &1624397248
 Transform:
   m_ObjectHideFlags: 0
@@ -1910,13 +1914,31 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 0
+  Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 0}
   viewIdField: 1
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1624397250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624397246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa33f7021f9e534e845db92872e5608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  data: {fileID: 0}
+  warriorPrefab: {fileID: 7739993974805696525, guid: 0ed93d50f88014944b19f8bac91cef65,
+    type: 3}
+  wizardPrefab: {fileID: 5541045620880522740, guid: e75af9169ae2b1a4d9de361ef0f9e800,
+    type: 3}
 --- !u!1 &1652663966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,7 +2170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 427.02, y: 83.6}
+  m_AnchoredPosition: {x: 348.1, y: 83.6}
   m_SizeDelta: {x: 160, y: 31.8}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1919687447
@@ -2559,8 +2581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -109.3}
-  m_SizeDelta: {x: 0, y: -219}
+  m_AnchoredPosition: {x: 0, y: -117.4}
+  m_SizeDelta: {x: 0, y: -235.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2136516626
 MonoBehaviour:
