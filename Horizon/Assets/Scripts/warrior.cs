@@ -26,6 +26,7 @@ public class warrior : personnage
     {
         int attack = data.attack;
         personnage target = ennemy;
+
         Debug.Log(attack + " on : " + target.name);
         target.hp -= attack;
         target.CanAttack = true;

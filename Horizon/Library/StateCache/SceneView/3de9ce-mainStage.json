@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":164.0160675048828,"y":74.14414978027344,"z":-1925.6741943359375},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":286.60821533203127,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":358.1744384765625,"y":113.48871612548828,"z":-613.2243041992188},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":538.547119140625,"orthographic":true}
+>>>>>>> parent of 121c87d... Character list
